@@ -1,7 +1,7 @@
 VIRTUALENV = $(shell which virtualenv)
 
 ifeq ($(strip $(VIRTUALENV)),)
-  VIRTUALENV = /Users/amee/Library/Python/2.7/bin
+  VIRTUALENV = /Users/amee/Library/Python/2.7/bin/
 endif
 
 
