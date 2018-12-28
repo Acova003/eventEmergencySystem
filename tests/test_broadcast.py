@@ -2,6 +2,9 @@ from mock import patch, Mock, call
 from nose.tools import assert_equal
 from rapid_response_kit.app import app
 from tests.base import KitTestCase
+import pyrebase config = {  "apiKey": "AIzaSyCTxPeTycN3vgGG_ctrOilnlge57W3JyXA",  "authDomain": "firebase-adminsdk-y2xjm@eventemergencysystem.iam.gserviceaccount.com
+",  "databaseURL": "https://eventemergencysystem.firebaseio.com",  "storageBucket": "eventemergencysystem.appspot.com",  "serviceAccount": "path/to/serviceAccountKey.json" } firebase = pyrebase.initialize_app(config)
+
 
 
 class BroadcastTestCase(KitTestCase):
@@ -118,6 +121,3 @@ class BroadcastTestCase(KitTestCase):
                 from_='1415TWILIO'
             ),
         ])
-
-
-
