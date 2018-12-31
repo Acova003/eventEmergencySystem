@@ -21,3 +21,8 @@ except:
 SECRET_KEY = '{u\xa5\x02\x06\x0c[\t\xf7\x88\x87\xba\xcf8ATJ\\\x06\x1e'
 TWILIO_ACCOUNT_SID = 'AC1870545b1326ed4351430a0b8bbaa40e'
 TWILIO_AUTH_TOKEN = '9e0ede19372ec90f199b945a4d8407d7'
+
+# Configuration Auto-generated during installation
+SECRET_KEY = 'P\xae\xee\xbe\x14*\xbe\x98W\x82\xc5\xee\xb8z\x97\x16\xb2\xa0}]'
+TWILIO_ACCOUNT_SID = 'AC1870545b1326ed4351430a0b8bbaa40e'
+TWILIO_AUTH_TOKEN = '9e0ede19372ec90f199b945a4d8407d7'
