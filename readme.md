@@ -1,4 +1,7 @@
-# The Twilio.org Rapid Response Kit
+# The Twilio.org Rapid Response Kit With Google Sheets Integration and Firebase Realtime Database
+--This adaptation adds Google Sheet integration with Firebase database service to pre-fill the recipient numbers form in the broadcast feature--
+
+Note: All changes to the original project will be added with "--text--"
 
 The Twilio.org Rapid Response Kit is a collection of open source communications tools any developer or technically inclined user can deploy quickly. Scroll down to [INSTALLATION](#installation) to get started.
 
@@ -18,12 +21,17 @@ Please make sure that before you begin you meet the minimum requirements:
 - Python 2.7
 - virtualenv
 - pip
+--Google account--
 
 ## Tools available out-of-the-box
 
 Twilio.org Rapid Response Kit comes with several tools already installed. When you
 start up the Twilio.org Rapid Response Kit it will report what tools are available
 and where. Below is a brief description of every tool provided.
+
+##Google Sheets as a database
+--A Google Sheet Document will be required for the added integration of Google Sheets--
+  +Why use Google Sheets? To make database management easier and more intuitive for people unfamiliar with database programming--
 
 ### Auto-Respond
 Use this tool to set up an recorded auto-responder to inbound voice calls or text messages. Respond to voice calls with a spoken message or to an incoming SMS message with a response SMS.
@@ -34,6 +42,8 @@ Useful for setting up and updating information lines.
 A simple messaging broadcast app. Send a one-way communications blast to a defined group of contacts.
 
 Useful for broadcasting information to volunteers.
+
+--syncs Firebase database phone numbers to recipients form in realtime--
 
 ### Conference Line
 Configures a Twilio Number to behave like a conference line. Anyone who calls
@@ -74,6 +84,11 @@ Response Center?"
 * Once you are in the [Console](https://console.firebase.google.com/), create a new project.
 
 * To get the **Url** click on the **Database** tab:
+--select Realtime Database--
+--Change the rules to the following: --
+![](images/permissions.png)
+
+--WARNING! This database information will be visible to the public--
 
 ![Firebase Database Url](http://i.imgur.com/Y8kO1z0.png)
 
@@ -91,7 +106,15 @@ Response Center?"
 FIREBASE_URL = 'Firebase Url'
 FIREBASE_SECRET = 'Firebase Secret Key'
 ```
-
+#### Your Google Sheet Setup
+--1. Create Google Sheet--
+--2. Create UL Button (Insert -> Drawing)--
+    + Draw a box and create a label using text
+    ![](images/button.png)
+--3. Add a function to your script editor (tools -> script editor)--
+    ![](gs_data_screenshot.jpg)
+--4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
+--5. Click the button to sync information to your Firebase database.
 
 ### Town Hall
 With this group conference call tool, an organizer can dial one number which then dials a list of predefined contacts. Individuals who answer the call are dropped into the same conference. This can handle up to 40 people in one conference call.
