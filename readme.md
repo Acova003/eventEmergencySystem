@@ -32,9 +32,7 @@ and where. Below is a brief description of every tool provided.
 
 ## Google Sheets as a database
 --A Google Sheet Document will be required for the added integration of Google Sheets--
-  +Why use Google Sheets? To make database management easier and more intuitive for people unfamiliar with database programming--
-  
-  
+- Why use Google Sheets? To make database management easier and more intuitive for people unfamiliar with database programming
 
 ### Auto-Respond
 Use this tool to set up an recorded auto-responder to inbound voice calls or text messages. Respond to voice calls with a spoken message or to an incoming SMS message with a response SMS.
