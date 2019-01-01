@@ -108,14 +108,14 @@ FIREBASE_URL = 'Firebase Url'
 FIREBASE_SECRET = 'Firebase Secret Key'
 ```
 #### Your Google Sheet Setup
---1. Create Google Sheet--
---2. Create UL Button (Insert -> Drawing)--
+- 1. Create Google Sheet--
+- 2. Create UL Button (Insert -> Drawing)--
     + Draw a box and create a label using text
     ![](images/button.png)
---3. Add a function to your script editor (tools -> script editor)--
+- 3. Add a function to your script editor (tools -> script editor)--
     ![](gs_data_screenshot.jpg)
---4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
---5. Click the button to sync information to your Firebase database.
+- 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
+- 5. Click the button to sync information to your Firebase database.
 
 ### Town Hall
 With this group conference call tool, an organizer can dial one number which then dials a list of predefined contacts. Individuals who answer the call are dropped into the same conference. This can handle up to 40 people in one conference call.
@@ -252,4 +252,3 @@ Powered by Twilio.org
 
 The Twilio.org Rapid Response Kit is just a flask app, so feel free to deploy as you
 would any flask application.
-# eventEmergencySystem
