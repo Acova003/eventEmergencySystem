@@ -3,7 +3,7 @@
 --This adaptation adds Google Sheet integration with Firebase database service to pre-fill the recipient numbers form in the broadcast feature--
 
 - Note: All changes to the original project will be added with "--text--"
-    + I do not work for Twilio.org nor is this an official adaptation of Twilio's project. 
+    + I do not work for Twilio.org nor is this an official modification to Twilio's project. 
 
 The Twilio.org Rapid Response Kit is a collection of open source communications tools any developer or technically inclined user can deploy quickly. Scroll down to [INSTALLATION](#installation) to get started.
 
