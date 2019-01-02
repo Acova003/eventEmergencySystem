@@ -4,11 +4,11 @@
 console.log(firebase);
 function setup() {
   var config = {
-    apiKey: "AIzaSyCTxPeTycN3vgGG_ctrOilnlge57W3JyXA",
-    authDomain: "eventemergencysystem.firebaseapp.com",
-    databaseURL: "https://eventemergencysystem.firebaseio.com",
-    projectId: "eventemergencysystem",
-    storageBucket: "eventemergencysystem.appspot.com",
+    apiKey: "your firebase api key",
+    authDomain: "your project id",
+    databaseURL: "your project url",
+    projectId: "your project id",
+    storageBucket: "yourprojectid.appspot.com",
     messagingSenderId: "925233330590"
   };
 
@@ -28,7 +28,7 @@ function gotData(snapshot) {
   var rows = Object.values(snapshot.val());
 
   var phones = rows.map(function (row) {
-    return row.phone;
+    return row.phone; # phone refers to phone value of each person in Firebase (what we want in firebase)
   }).filter(function (phone) {
     return phone.toString().length !== 0;
   })
@@ -37,7 +37,9 @@ function gotData(snapshot) {
 }
 
 function fillFormPhonesField(phones) {
-  $("#numbers").val(phones.join("\n"))
+  $("#numbers").val(phones.join("\n")) # Formats the values to the specification of Twilio too send a new 
+                                       # outgoing message from a Twilio phone number to an outside number, 
+                                       # making an HTTP POST to your account's message resource.
 }
 
 function errData(err) {
