@@ -113,6 +113,7 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 - 2. Create UL Button (Insert -> Drawing)--
     + Draw a box and create a label using text
     ![button](https://user-images.githubusercontent.com/17489057/50577491-25d30d00-0dde-11e9-8802-91245b03bac0.png)
+    ![gs_overview](https://user-images.githubusercontent.com/17489057/50577715-14d8ca80-0de3-11e9-8a67-2471cc95204d.png)
     
 - 3. Add the following function to your script editor (tools -> script editor)--
     ![gs_script 1](https://user-images.githubusercontent.com/17489057/50577608-34222880-0de0-11e9-9da6-b7edff756443.jpg)
