@@ -111,7 +111,7 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 ```
 #### -- Your Google Sheet Setup -- 
 - 1. Create Google Sheet
-- 2. Create UL Button (Insert -> Drawing)
+- 2. Create UI Element Button (Insert -> Drawing)
     + Draw a box and create a label using text
     ![button](https://user-images.githubusercontent.com/17489057/50577491-25d30d00-0dde-11e9-8802-91245b03bac0.png)
     ![gs_overview](https://user-images.githubusercontent.com/17489057/50577715-14d8ca80-0de3-11e9-8a67-2471cc95204d.png)
