@@ -119,8 +119,11 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 - 3. Add the following function to your script editor (tools -> script editor)
     ![gs_script 1](https://user-images.githubusercontent.com/17489057/50577608-34222880-0de0-11e9-9da6-b7edff756443.jpg)
 
-- 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".
-- 5. Click the button to sync information to your Firebase database.
+- 4. Add Firebase Library to Google Script. 
+![library](https://user-images.githubusercontent.com/17489057/50577996-5c158a00-0de8-11e9-976c-f05fc2675b91.jpg)
+
+- 5. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".
+- 6. Click the button to sync information to your Firebase database.
     + When you see the "Finished Script" alert on your Google Sheet, your data will be converted to JSON and populated into the Firebase Realtime Database.
     + Note: We are linking our Google Sheet data to our Twilio app through our Firebase Database as a middle man. This is a security measure in case the Google Sheet is changed outside the configurations of your code. If they haven't pressed the sync button, your program should work as planned.
 
