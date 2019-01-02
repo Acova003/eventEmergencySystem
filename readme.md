@@ -90,7 +90,7 @@ Response Center?"
 --Change the rules to the following: --
 ![](images/permissions.png)
 
---WARNING! This database information will be visible to the public--
+--WARNING! This database information will be visible to the public. This is built for demo purposes.--
 
 ![Firebase Database Url](http://i.imgur.com/Y8kO1z0.png)
 
@@ -112,7 +112,8 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 - 1. Create Google Sheet--
 - 2. Create UL Button (Insert -> Drawing)--
     + Draw a box and create a label using text
-    ![](images/button.png)
+    ![button](https://user-images.githubusercontent.com/17489057/50577491-25d30d00-0dde-11e9-8802-91245b03bac0.png)
+    
 - 3. Add a function to your script editor (tools -> script editor)--
     ![](gs_data_screenshot.jpg)
 - 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
