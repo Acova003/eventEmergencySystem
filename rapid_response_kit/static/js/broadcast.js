@@ -29,6 +29,7 @@ function gotData(snapshot) {
 
   var phones = rows.map(function (row) {
     return row.phone;                  // phone refers to phone value of each person in Firebase (what we want in firebase)
+                                      // modify to your value name if different
   }).filter(function (phone) {
     return phone.toString().length !== 0;
   })
