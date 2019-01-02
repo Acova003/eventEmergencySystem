@@ -119,6 +119,8 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 
 - 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
 - 5. Click the button to sync information to your Firebase database.
+    + When you see the "Finished Script" alert on your Google Sheet, your data will be converted to JSON and populated into the Firebase Realtime Database --
+    + Note: We are linking our Google Sheet data to our Twilio app through our Firebase Database as a middle man. This is a security measure in case the Google Sheet is changed outside the configurations of your code. If they haven't pressed the sync button, your program should work as planned.
 
 ### Town Hall
 With this group conference call tool, an organizer can dial one number which then dials a list of predefined contacts. Individuals who answer the call are dropped into the same conference. This can handle up to 40 people in one conference call.
