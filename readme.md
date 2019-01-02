@@ -121,6 +121,7 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 
 - 4. Add Firebase Library to Google Script. 
 ![library](https://user-images.githubusercontent.com/17489057/50577996-5c158a00-0de8-11e9-976c-f05fc2675b91.jpg)
+-- Picture reference [Documentation](https://sites.google.com/site/scriptsexamples/new-connectors-to-google-services/firebase) --
 
 - 5. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".
 - 6. Click the button to sync information to your Firebase database.
