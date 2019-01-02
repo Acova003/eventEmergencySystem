@@ -39,7 +39,7 @@ function gotData(snapshot) {
 function fillFormPhonesField(phones) {
   $("#numbers").val(phones.join("\n")) # Formats the values to the specification of Twilio too send a new 
                                        # outgoing message from a Twilio phone number to an outside number, 
-                                       # making an HTTP POST to your account's message resource.
+                                       # making an HTTP POST to your accounts message resource.
 }
 
 function errData(err) {
