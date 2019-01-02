@@ -44,7 +44,7 @@ A simple messaging broadcast app. Send a one-way communications blast to a defin
 
 Useful for broadcasting information to volunteers.
 
---syncs Firebase database phone numbers to recipients form in realtime--
+--Auto-populates recipients form with Firebase database phone numbers in realtime--
 ![phone_num_autofill](https://user-images.githubusercontent.com/17489057/50577468-67af8380-0ddd-11e9-8723-63d3ae0ea76b.png)
 
 ### Conference Line
