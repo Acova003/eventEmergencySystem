@@ -115,7 +115,8 @@ FIREBASE_SECRET = 'Firebase Secret Key'
     ![button](https://user-images.githubusercontent.com/17489057/50577491-25d30d00-0dde-11e9-8802-91245b03bac0.png)
     
 - 3. Add the following function to your script editor (tools -> script editor)--
-    ![](gs_data_screenshot.jpg)
+    ![gs_script](https://user-images.githubusercontent.com/17489057/50577549-33d55d80-0ddf-11e9-875e-bd5a6e167f7e.jpg)
+
 - 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
 - 5. Click the button to sync information to your Firebase database.
 
