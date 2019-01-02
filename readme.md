@@ -127,7 +127,7 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 - 6. Click the button to sync information to your Firebase database.
     + When you see the "Finished Script" alert on your Google Sheet, your data will be converted to JSON and populated into the Firebase Realtime Database.
     + Note: We are linking our Google Sheet data to our Twilio app through our Firebase Database as a middle man. This is a security measure in case the Google Sheet is changed outside the configurations of your code. If they haven't pressed the sync button, your program should work as planned.
-    + Firebase Database as service inspired by [Programming from A to Z](https://shiffman.net/a2z/firebase/)
+    + Using Firebase Database as service inspired by [Programming from A to Z](https://shiffman.net/a2z/firebase/)
 
 #### -- Adaptations -- 
 - The following file was added to the project and referenced in the original broadcast html file: **broadcast.js**
