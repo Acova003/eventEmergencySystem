@@ -32,7 +32,7 @@ start up the Twilio.org Rapid Response Kit it will report what tools are availab
 and where. Below is a brief description of every tool provided.
 
 ## -- Google Sheets as a database -- 
---A Google Sheet Document will be required for the added integration of Google Sheets--
+A Google Sheet Document will be required for the added integration of Google Sheets
 - Why use Google Sheets? To make database management easier and more intuitive for people unfamiliar with database programming
 
 ### Auto-Respond
@@ -110,23 +110,23 @@ FIREBASE_URL = 'Firebase Url'
 FIREBASE_SECRET = 'Firebase Secret Key'
 ```
 #### -- Your Google Sheet Setup -- 
-- 1. Create Google Sheet--
-- 2. Create UL Button (Insert -> Drawing)--
+- 1. Create Google Sheet
+- 2. Create UL Button (Insert -> Drawing)
     + Draw a box and create a label using text
     ![button](https://user-images.githubusercontent.com/17489057/50577491-25d30d00-0dde-11e9-8802-91245b03bac0.png)
     ![gs_overview](https://user-images.githubusercontent.com/17489057/50577715-14d8ca80-0de3-11e9-8a67-2471cc95204d.png)
     
-- 3. Add the following function to your script editor (tools -> script editor)--
+- 3. Add the following function to your script editor (tools -> script editor)
     ![gs_script 1](https://user-images.githubusercontent.com/17489057/50577608-34222880-0de0-11e9-9da6-b7edff756443.jpg)
 
-- 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".--
+- 4. Right click or double finger click (mac) sync button. Click on the three dots on the top right side of the button. Then select assign script. Enter "writeDataToFirebase".
 - 5. Click the button to sync information to your Firebase database.
-    + When you see the "Finished Script" alert on your Google Sheet, your data will be converted to JSON and populated into the Firebase Realtime Database --
+    + When you see the "Finished Script" alert on your Google Sheet, your data will be converted to JSON and populated into the Firebase Realtime Database.
     + Note: We are linking our Google Sheet data to our Twilio app through our Firebase Database as a middle man. This is a security measure in case the Google Sheet is changed outside the configurations of your code. If they haven't pressed the sync button, your program should work as planned.
 
 #### -- Adaptations -- 
-- The following file was added to the project and referenced in the original broadcast html file: broadcast.js --
-    + Please adapt these files to your personal configurations -- 
+- The following file was added to the project and referenced in the original broadcast html file: **broadcast.js**
+    + Please adapt these files to your personal configurations  
 
 ### Town Hall
 With this group conference call tool, an organizer can dial one number which then dials a list of predefined contacts. Individuals who answer the call are dropped into the same conference. This can handle up to 40 people in one conference call.
