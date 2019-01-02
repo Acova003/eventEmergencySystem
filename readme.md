@@ -131,7 +131,7 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 
 #### -- Adaptations -- 
 - The following file was added to the project and referenced in the original broadcast html file: **broadcast.js**
-    + Please adapt these files to your personal configurations  
+    + Please modify these files to your personal configurations  
 
 ### Town Hall
 With this group conference call tool, an organizer can dial one number which then dials a list of predefined contacts. Individuals who answer the call are dropped into the same conference. This can handle up to 40 people in one conference call.
