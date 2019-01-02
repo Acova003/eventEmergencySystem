@@ -31,7 +31,7 @@ Twilio.org Rapid Response Kit comes with several tools already installed. When y
 start up the Twilio.org Rapid Response Kit it will report what tools are available
 and where. Below is a brief description of every tool provided.
 
-## Google Sheets as a database
+## -- Google Sheets as a database -- 
 --A Google Sheet Document will be required for the added integration of Google Sheets--
 - Why use Google Sheets? To make database management easier and more intuitive for people unfamiliar with database programming
 
@@ -109,7 +109,7 @@ Response Center?"
 FIREBASE_URL = 'Firebase Url'
 FIREBASE_SECRET = 'Firebase Secret Key'
 ```
-#### Your Google Sheet Setup
+#### -- Your Google Sheet Setup -- 
 - 1. Create Google Sheet--
 - 2. Create UL Button (Insert -> Drawing)--
     + Draw a box and create a label using text
@@ -123,6 +123,10 @@ FIREBASE_SECRET = 'Firebase Secret Key'
 - 5. Click the button to sync information to your Firebase database.
     + When you see the "Finished Script" alert on your Google Sheet, your data will be converted to JSON and populated into the Firebase Realtime Database --
     + Note: We are linking our Google Sheet data to our Twilio app through our Firebase Database as a middle man. This is a security measure in case the Google Sheet is changed outside the configurations of your code. If they haven't pressed the sync button, your program should work as planned.
+
+#### -- Adaptations -- 
+- The following file was added to the project and referenced in the original broadcast html file: broadcast.js --
+    + Please adapt these files to your personal configurations -- 
 
 ### Town Hall
 With this group conference call tool, an organizer can dial one number which then dials a list of predefined contacts. Individuals who answer the call are dropped into the same conference. This can handle up to 40 people in one conference call.
