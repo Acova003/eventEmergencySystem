@@ -23,7 +23,7 @@ Please make sure that before you begin you meet the minimum requirements:
 - Python 2.7
 - virtualenv
 - pip
-- Google account--
+- --Google account--
 
 ## Tools available out-of-the-box
 
