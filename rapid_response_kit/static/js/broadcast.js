@@ -9,7 +9,7 @@ function setup() {
     databaseURL: "your project url",
     projectId: "your project id",
     storageBucket: "yourprojectid.appspot.com",
-    messagingSenderId: "925233330590"
+    messagingSenderId: "Your data here"
   };
 
   firebase.initializeApp(config);
@@ -28,7 +28,7 @@ function gotData(snapshot) {
   var rows = Object.values(snapshot.val());
 
   var phones = rows.map(function (row) {
-    return row.phone; # phone refers to phone value of each person in Firebase (what we want in firebase)
+    return row.phone;                  // phone refers to phone value of each person in Firebase (what we want in firebase)
   }).filter(function (phone) {
     return phone.toString().length !== 0;
   })
@@ -37,9 +37,9 @@ function gotData(snapshot) {
 }
 
 function fillFormPhonesField(phones) {
-  $("#numbers").val(phones.join("\n")) # Formats the values to the specification of Twilio too send a new 
-                                       # outgoing message from a Twilio phone number to an outside number, 
-                                       # making an HTTP POST to your accounts message resource.
+  $("#numbers").val(phones.join("\n")) // Formats the values to the specification of Twilio too send a new 
+                                       // outgoing message from a Twilio phone number to an outside number, 
+                                       // making an HTTP POST to your account's message resource.
 }
 
 function errData(err) {
